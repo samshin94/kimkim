@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> 회원가입 폼만들기 </title>
+
+</head>
+
+<body>
+
+  <form action = "MAILTO:"  
+              name = "person_info" method = "post">
+  <table border="1" bordercolor="lightblue" cellspacing="0">
+    <tr>
+      <td align='center' colspan="2" bgcolor="skyblue"> <b>회원 기본 정보</b> </td>
+
+    </tr>
+    <tr>
+
+      <th bgcolor="lightgray"> 아이디: </th>
+      <td> <input type="text" name="my ID" size="11">4~12자의 영문 대소문자와 숫자로만 입력
+      </td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 비밀번호: </th>
+      <td> <input type="password" name="my password" size="11">4~12자의 영문 대소문자와 숫자로만 입력
+      </td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 비밀번호확인: </th>
+      <td> <input type="password" name="my password check" size="11"> </td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 메일주소: </th>
+      <td> <input type="text" name="my e-mail" size="11"> 예) id@domain.com</td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 이름: </th>
+      <td> <input type="text" name="my name" size="11"> </td>
+    </tr>
+
+    <tr>
+      <th colspan="2" bgcolor="skyblue"> 개인 신상 정보 </th>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 주민등록번호: </th>
+      <td> <input type="text" name="my citizen number" size="11"> 예) 1234561234567 </td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 생일: </th>
+      <td> <input type="text" name="year" size="7">년
+        <select name='items1' size='1'>
+            <option value='1'>1</option>
+            <option value='1'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='3'>5</option>
+            <option value='3'>6</option>
+            <option value='3'>7</option>
+            <option value='3'>8</option>
+            <option value='3'>9</option>
+            <option value='3'>10</option>
+            <option value='3'>11</option>
+            <option value='3'>12</option>
+        </select>월
+
+        <select name='items1' size='1'>
+            <option value='1'>1</option>
+            <option value='1'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='3'>5</option>
+            <option value='3'>6</option>
+            <option value='3'>7</option>
+            <option value='3'>8</option>
+            <option value='3'>9</option>
+            <option value='3'>10</option>
+            <option value='3'>11</option>
+            <option value='3'>12</option>
+            <option value='1'>13</option>
+            <option value='1'>14</option>
+            <option value='3'>15</option>
+            <option value='4'>16</option>
+            <option value='3'>17</option>
+            <option value='3'>18</option>
+            <option value='3'>19</option>
+            <option value='3'>20</option>
+            <option value='3'>21</option>
+            <option value='3'>22</option>
+            <option value='3'>23</option>
+            <option value='3'>24</option>
+            <option value='3'>25</option>
+            <option value='3'>26</option>
+            <option value='3'>27</option>
+            <option value='3'>28</option>
+            <option value='3'>29</option>
+            <option value='3'>30</option>
+            <option value='3'>31</option>
+        </select>일</td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 관심분야: </th>
+      <td> <input type="checkbox" name="interest">컴퓨터
+        <input type="checkbox" name="interest">인터넷
+        <input type="checkbox" name="interest">여행
+        <input type="checkbox" name="interest">영화감상
+        <input type="checkbox" name="interest">음악감상</td>
+    </tr>
+    <tr>
+      <th bgcolor="lightgray"> 자기소개: </th>
+      <td>
+      <textarea cols='50' rows='5' name='introduce' value=''> </textarea>
+      </td>
+      </tr>
+    </table>
+    <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="submit" value="회원 가입">
+    <input type=reset value="다시 입력">
+  </form>
+  </body>
+
+  </html>
